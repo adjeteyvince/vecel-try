@@ -7,7 +7,7 @@ def home():
     return "Home Page"
 
 @app.route('/about', methods=['GET'])
-def home():
+def about():
     return "About KT - RH Media Api"
 
 
